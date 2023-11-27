@@ -21,7 +21,7 @@ public class TestJDBC {
 
         //获取代理对象
         StudentMapper studentMapper = sqlSession.getMapper(StudentMapper.class);
-        System.out.println("==================学生作业提交系统===================");
+        System.out.println("======================学生作业提交系统===================");
         System.out.println("功能：");
         System.out.println("1.注册账号");
         System.out.println("2.查询账号");
