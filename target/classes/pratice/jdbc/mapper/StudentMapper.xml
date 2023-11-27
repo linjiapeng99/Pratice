@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--命名空间-->
+<!--这个命名空间写的要是我们定义的mapper接口，这样子小鸟才会出来-->
+<mapper namespace="pratice.jdbc.mapper.StudentMapper">
+
+
+    <!--
+        resultMap:这是一个映射标签，多用于查询，我们查询到的数据是数据库中来的，
+        字段名称可能和实体类中不一样不是驼峰命名，这个标签可以将数据库中的相应字段映射到实体类中
+        然后再将数据装进一个集合，供我们使用
+        result标签：也类似于result，但是result只能映射一个字段而已
+    -->
+    <resultMap id="StudentResultMap" type="pratice.jdbc.pojo.Student">
+        <result column="class_number" property="classNumber"/>
+        <result column="id_number" property="idNumber"/>
+    </resultMap>
+    <!--添加学生-->
+    <insert id="insertStudent" >
+        insert into student.imformation(class_number, id_number, name, password) VALUES (#{classNumber},#{idNumber},#{name},#{password})
+    </insert>
+    <!--查询学生-->
+    <select id="selectAll" resultMap="StudentResultMap">
+        select * from student.imformation;
+    </select>
+    <select id="selectAllCondition" resultMap="StudentResultMap">
+        select * from student.imformation
+        <where>
+            <if test="classNumber!=null">
+                and class_number=#{classNumber}
+            </if>
+            <if test="idNumber!=null">
+                and id_number=#{idNumber}
+            </if>
+            <if test="name!=null and name!=''">
+                and name=#{name}
+            </if>
+        </where>
+    </select>
+    <!--多选一条件查询-->
+    <select id="selectByConditionSingle" resultMap="StudentResultMap">
+        select * from student.imformation
+        <where>
+            <choose><!--相当于Java中的switch-->
+                <when test="classNumber!=null"><!--相当于Java中的case：-->
+                    class_number=#{classNumber,jdbcType=INTEGER}
+                </when>
+                <when test="idNumber!=null">
+                    id_number=#{idNumber,jdbcType=INTEGER}
+                </when>
+                <when test="name!=null and name!=''.toString()">
+                    name=#{name,jdbcType=VARCHAR}
+                </when>
+                <!--<otherwise>
+                    1=1
+                </otherwise>--><!--相当于Java中的default，这里可以省略因为已经有where标签了-->
+            </choose>
+        </where>
+
+    </select>
+    <select id="selectStudentsByidNumber" resultMap="StudentResultMap">
+        select * from student.imformation where id_number=#{idNumber}
+    </select>
+    <!--修改学生信息-->
+    <update id="modifyStudents">
+        update student.imformation
+        <set>
+            <if test="classNumber!=null">
+                class_number=#{classNumber},
+            </if>
+            <if test="name!=null and name!=''">
+                name=#{name},
+            </if>
+            <if test="password!=null">
+                password=#{password},
+            </if>
+        </set>
+        <where>
+            id_number=#{idNumber}
+        </where>
+    </update>
+    <!--删除账号-->
+    <delete id="deleteByIdNumber">
+        delete from student.imformation where id_number=#{idNumber}
+    </delete>
+</mapper>

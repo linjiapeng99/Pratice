@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a8a6a1c5-81ca-4905-8b29-3d164d828810" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/TestJDBC.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2Yk60FASg5Zy5nHdB9PGPkA6dk8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/java相关me/pratice1-JDBC&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+    ],
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java相关me\pratice1-JDBC\src\main" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TestJDBC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestJDBC" />
+      <module name="pratice1-JDBC" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestJDBC" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8a6a1c5-81ca-4905-8b29-3d164d828810" name="Changes" comment="" />
+      <created>1701057004580</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701057004580</updated>
+      <workItem from="1701057005700" duration="158000" />
+      <workItem from="1701057261720" duration="23000" />
+      <workItem from="1701057313852" duration="7000" />
+      <workItem from="1701057365459" duration="55000" />
+      <workItem from="1701057434516" duration="117000" />
+      <workItem from="1701057584433" duration="354000" />
+      <workItem from="1701057963754" duration="460000" />
+      <workItem from="1701058474637" duration="187000" />
+      <workItem from="1701058696062" duration="340000" />
+      <workItem from="1701059053415" duration="42000" />
+      <workItem from="1701059105707" duration="47000" />
+      <workItem from="1701059174811" duration="13000" />
+      <workItem from="1701059207738" duration="159000" />
+      <workItem from="1701059397379" duration="74000" />
+      <workItem from="1701059486411" duration="586000" />
+      <workItem from="1701060128370" duration="897000" />
+      <workItem from="1701061058929" duration="77000" />
+      <workItem from="1701061161783" duration="79000" />
+      <workItem from="1701061266888" duration="119000" />
+      <workItem from="1701061439281" duration="60000" />
+      <workItem from="1701061514567" duration="2785000" />
+      <workItem from="1701064419313" duration="1772000" />
+      <workItem from="1701067086103" duration="5063000" />
+      <workItem from="1701072204515" duration="932000" />
+      <workItem from="1701073157203" duration="172000" />
+    </task>
+    <task id="LOCAL-00001" summary="第一次提交：&#10;题目内容：使用Java的代理机制完成JDBC执行SQL语句的自动回滚设计">
+      <created>1701068241772</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701068241773</updated>
+    </task>
+    <task id="LOCAL-00002" summary="第二次提交：&#10;题目内容：使用Java的代理机制完成JDBC执行SQL语句的自动回滚设计">
+      <created>1701069030716</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701069030716</updated>
+    </task>
+    <task id="LOCAL-00003" summary="第二次提交：&#10;题目内容：使用Java的代理机制完成JDBC执行SQL语句的自动回滚设计">
+      <created>1701069707756</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701069707756</updated>
+    </task>
+    <task id="LOCAL-00004" summary="第三次提交：&#10;题目内容：使用Java的代理机制完成JDBC执行SQL语句的自动回滚设计">
+      <created>1701071863287</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701071863287</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="题目内容：使用Java的代理机制完成JDBC执行SQL语句的自动回滚设计" />
+    <MESSAGE value="第一次提交：&#10;题目内容：使用Java的代理机制完成JDBC执行SQL语句的自动回滚设计" />
+    <MESSAGE value="第二次提交：&#10;题目内容：使用Java的代理机制完成JDBC执行SQL语句的自动回滚设计" />
+    <MESSAGE value="第三次提交：&#10;题目内容：使用Java的代理机制完成JDBC执行SQL语句的自动回滚设计" />
+    <option name="LAST_COMMIT_MESSAGE" value="第三次提交：&#10;题目内容：使用Java的代理机制完成JDBC执行SQL语句的自动回滚设计" />
+  </component>
+</project>
