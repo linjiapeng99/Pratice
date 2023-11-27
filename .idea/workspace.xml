@@ -117,7 +117,7 @@
       <workItem from="1701064419313" duration="1772000" />
       <workItem from="1701067086103" duration="5063000" />
       <workItem from="1701072204515" duration="932000" />
-      <workItem from="1701073157203" duration="919000" />
+      <workItem from="1701073157203" duration="1396000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交：&#10;题目内容：使用Java的代理机制完成JDBC执行SQL语句的自动回滚设计">
       <created>1701068241772</created>
@@ -168,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701074069316</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="题目内容：使用Java的代理机制完成JDBC执行SQL语句的自动回滚设计&#10;第二次提交：加了几个====">
+      <created>1701074480556</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701074480557</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
